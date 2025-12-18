@@ -10,8 +10,8 @@ Link zum Testen(no index): https://simple-bot-kphc.onrender.com
 ## Entwicklungs- und Deployment-Workflow
 
 1. Das Projekt wurde als Git-Repository mit einer klaren Struktur angelegt.
-   Ein Dockerfile wurde angelegt, um einen reproduzierbaren Build und
-   eine konsistente Laufzeitumgebung sicherzustellen.
+   Das Dockerfile bildet die Basis für einen reproduzierbaren Build und
+   eine konsistente Laufzeitumgebung.
 
 2. Für Continuous Integration habe ich eine CI-Pipeline mit GitHub Actions eingerichtet
    (`.github/workflows/ci.yml`).
